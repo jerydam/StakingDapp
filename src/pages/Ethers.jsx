@@ -10,9 +10,9 @@ export const Ethers = () => {
     // const contract = getContract("0xccF6772F52D007E082bF4A01757C4091F5f4dD92",
     //     erc20ABI, provider)
     // console.log(contract)
-    const musa = async () => {
+    const jery = async () => {
         const data = await readContract({
-                address: "0xccF6772F52D007E082bF4A01757C4091F5f4dD92",
+                address: "0x6c07ebb84bd92d6bbbac6cf2d4ac0610fab6e39f",
                     abi: erc20ABI,
                     functionName: 'name',
         })
@@ -21,7 +21,7 @@ export const Ethers = () => {
     
     }
     useEffect(() => {
-        musa()
+        jery()
     })
     console.log(data);
 

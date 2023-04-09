@@ -7,10 +7,10 @@ import { ethers } from 'ethers'
 
 export const Dashboard = () => {
 
-    const [stakedTokens, setStakedTokens] = useState(["0x62f9D3A871cd539EEF606cF3cdF77c30386128AB"]);
+    const [stakedTokens, setStakedTokens] = useState(["0xC84a23b8C65d3d7a4c793bb846258123456b7777"]);
     const contractFactory = {
         old: "0x7c9210c291E00c2030116FcC930D071BBEC5C30f",
-        new: "0xccF6772F52D007E082bF4A01757C4091F5f4dD92"
+        new: "0xa8C61a19F84EC4f79D9671A204CD3fF8fA9e28C3                                                                                                                                                                                                                        "
     }
     const CONTRACT = contractFactory.new
 

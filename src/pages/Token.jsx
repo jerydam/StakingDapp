@@ -9,7 +9,7 @@ export const Token = () => {
     const { address } = useParams()
     const contract = useContext(ContractContext);
 
-    const [tokenHolderAddrs, setTokenHolderAddrs] = useState(["0x5886F287C4473Ce13c58474a261b31c881f8635d"]);
+    const [tokenHolderAddrs, setTokenHolderAddrs] = useState(["0x6C07EBb84bD92D6bBBaC6Cf2d4Ac0610Fab6e39F"]);
 
     useContractRead({
         address: contract,
@@ -56,7 +56,7 @@ export const Token = () => {
                     {tokenData[0]}
                     <span className="text-sm text-red-600 uppercase ml-4">{tokenData[1]}</span>
                 </h2>
-                <span className="text-sm text-teal-900 h-auto bg-slate-100/30 backdrop-blur p-2 px-4 rounded-full ring-1 ring-teal-800">
+                <span className="text-sm text-blue-900 h-auto bg-purple-100/30 backdrop-blur p-2 px-4 rounded-full ring-1 ring-blue-800">
                     {address}
                 </span>
             </div>

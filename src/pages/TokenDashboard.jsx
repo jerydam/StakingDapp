@@ -3,7 +3,7 @@ import standard from "../utils/abi/StandardERC20.json"
 
 export const TokenDashboard = () => {
     const def = {
-        address: "0xFE2ecA2a3B933E4D1679cb0EBf272eA45D664644",
+        address: "0xC84a23b8C65d3d7a4c793bb846258123456b7777",
         abi: erc20ABI,
     }
     const { data, isError, isLoading } = useContractReads({

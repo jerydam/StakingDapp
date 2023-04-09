@@ -12,7 +12,7 @@ import BGStyle from '../components/Pattern/BGStyle';
 export const Portfolio = () => {
     const contract = useContext(ContractContext);
 
-    const [tokenContractAddrs, setTokenContractAddrs] = useState(["0x5886F287C4473Ce13c58474a261b31c881f8635d"]);
+    const [tokenContractAddrs, setTokenContractAddrs] = useState(["0x6C07EBb84bD92D6bBBaC6Cf2d4Ac0610Fab6e39F"]);
 
     useContractRead({
         address: contract,
